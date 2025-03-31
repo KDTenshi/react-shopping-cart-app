@@ -1,0 +1,48 @@
+.Item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border: 3px solid #41444b;
+  background: #f9f5f6;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Title {
+  font-size: 20px;
+  color: #41444b;
+}
+
+.Price {
+  font-size: 15px;
+  color: #41444b;
+}
+
+.Controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Button {
+  font-size: 15px;
+  border: 3px solid #41444b;
+  border-radius: 0;
+  padding: 5px 10px;
+  background: #f9f5f6;
+  cursor: pointer;
+}
+.Button:hover {
+  background: #cdcdce;
+}
+
+.Amount {
+  font-size: 20px;
+  color: #41444b;
+}/*# sourceMappingURL=CartItem.module.css.map */

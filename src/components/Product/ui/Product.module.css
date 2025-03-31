@@ -1,0 +1,36 @@
+.Product {
+  padding: 15px 25px;
+  background: #f9f5f6;
+  border: 3px solid #41444b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.Title {
+  font-size: 20px;
+  color: #41444b;
+}
+
+.Price {
+  font-size: 15px;
+  color: #41444b;
+}
+
+.Button {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 15px;
+  color: #41444b;
+  background: #f9f5f6;
+  border: 3px solid #41444b;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.Button:hover {
+  background: #cdcdce;
+}/*# sourceMappingURL=Product.module.css.map */

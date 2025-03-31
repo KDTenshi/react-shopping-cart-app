@@ -1,0 +1,26 @@
+@use "../../../shared/style/colors" as c;
+
+.Wrapper {
+  width: 75vw;
+  height: 75vh;
+  background: c.$white;
+  border: 5px solid c.$black;
+  border-radius: 25px;
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.Title {
+  font-size: 25px;
+  color: c.$black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.List {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}

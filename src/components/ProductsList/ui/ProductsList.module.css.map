@@ -1,0 +1,1 @@
+{"version":3,"sources":["ProductsList.module.scss","../../../shared/style/_colors.scss","ProductsList.module.css"],"names":[],"mappings":"AAEA;EACE,WAAA;EACA,YAAA;EACA,mBCLM;EDMN,yBAAA;EACA,mBAAA;EACA,kBAAA;EACA,aAAA;EACA,sBAAA;EACA,SAAA;AEDF;;AFIA;EACE,eAAA;EACA,cCdM;EDeN,kBAAA;EACA,yBAAA;AEDF;;AFIA;EACE,aAAA;EACA,qCAAA;EACA,SAAA;AEDF","file":"ProductsList.module.css"}

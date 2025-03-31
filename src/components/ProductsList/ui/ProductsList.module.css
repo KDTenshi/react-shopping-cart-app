@@ -1,0 +1,24 @@
+.Wrapper {
+  width: 75vw;
+  height: 75vh;
+  background: #f9f5f6;
+  border: 5px solid #41444b;
+  border-radius: 25px;
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.Title {
+  font-size: 25px;
+  color: #41444b;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.List {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}/*# sourceMappingURL=ProductsList.module.css.map */
