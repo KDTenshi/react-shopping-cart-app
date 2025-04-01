@@ -18,7 +18,7 @@ const ProductsList: FC = () => {
       <h2 className={style.Title}>Products List</h2>
       <div className={style.List}>
         {list.map((product) => (
-          <Product product={product} />
+          <Product product={product} key={product.id} />
         ))}
       </div>
     </div>

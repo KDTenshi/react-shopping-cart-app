@@ -1,0 +1,18 @@
+@use "../../../shared/style/colors" as c;
+
+.Button {
+  position: fixed;
+  top: 25px;
+  right: 50px;
+  font-size: 25px;
+  color: c.$black;
+  padding: 15px 25px;
+  background: c.$white;
+  cursor: pointer;
+  border: 3px solid c.$black;
+  border-radius: 15px;
+
+  &:hover {
+    background: c.$gray;
+  }
+}

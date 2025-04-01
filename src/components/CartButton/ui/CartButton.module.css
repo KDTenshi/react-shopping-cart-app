@@ -1,0 +1,15 @@
+.Button {
+  position: fixed;
+  top: 25px;
+  right: 50px;
+  font-size: 25px;
+  color: #41444b;
+  padding: 15px 25px;
+  background: #f9f5f6;
+  cursor: pointer;
+  border: 3px solid #41444b;
+  border-radius: 15px;
+}
+.Button:hover {
+  background: #cdcdce;
+}/*# sourceMappingURL=CartButton.module.css.map */

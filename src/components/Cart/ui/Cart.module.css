@@ -20,6 +20,7 @@
   flex-direction: column;
   gap: 15px;
   padding: 15px 25px;
+  position: relative;
 }
 
 .Title {
@@ -51,4 +52,20 @@
 .Size {
   font-size: 20px;
   color: #41444b;
+}
+
+.Button {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 15px;
+  color: #41444b;
+  background: #f9f5f6;
+  padding: 5px 10px;
+  border: 3px solid #41444b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Button:hover {
+  background: #cdcdce;
 }/*# sourceMappingURL=Cart.module.css.map */
